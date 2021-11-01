@@ -11,7 +11,7 @@ val mainScenario = Scenario {
         }
         action {
             reactions.run {
-                reactions.say("Hello Test JAICF")
+                reactions.say("Hello Test JAICF2")
             }
         }
     }
