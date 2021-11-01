@@ -3,6 +3,7 @@ package com.justai.jaicf.template.scenario
 import com.justai.jaicf.activator.caila.caila
 import com.justai.jaicf.builder.Scenario
 import com.justai.jaicf.channel.telegram.telegram
+import com.justai.jaicf.helpers.logging.log
 
 val mainScenario = Scenario {
     state("start") {
@@ -14,6 +15,8 @@ val mainScenario = Scenario {
             val message = request.telegram?.message
             // Fetch username
             val username = message?.chat?.username
+
+            log("Message: $message.toString()")
 
             reactions.run {
                 reactions.say("Hello Test username: $username")
