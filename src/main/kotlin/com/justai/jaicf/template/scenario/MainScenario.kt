@@ -19,7 +19,7 @@ val mainScenario = Scenario {
             val text = message?.text
 
             reactions.run {
-                reactions.say("Вы сказали: $text")
+                reactions.say("Вы сказали1: $text")
             }
         }
     }
