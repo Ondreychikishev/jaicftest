@@ -8,7 +8,7 @@ import com.justai.jaicf.channel.telegram.TelegramChannel
 import com.justai.jaicf.template.accessToken
 import com.justai.jaicf.template.templateBot
 
-fun main() {
+/*fun main() {
     JaicpServer(
         botApi = templateBot,
         accessToken = accessToken,
@@ -18,4 +18,7 @@ fun main() {
             TelegramChannel
         )
     ).start(wait = true)
+}*/
+fun main() {
+    TelegramChannel(templateBot, "581588245:AAGomKuIUQwH4rWLiSgcg4-qCj0MWpzd-9U").run()
 }
