@@ -17,11 +17,6 @@ val mainScenario = Scenario {
             // Fetch username
             val username = message?.chat?.username
 
-            val entities = activator.caila?.entities
-            val duckling_number = activator.caila?.entities?.
-            log("request: $request")
-            log("duckling_number: $duckling_number")
-
             val text = message?.text
 
             reactions.run {
