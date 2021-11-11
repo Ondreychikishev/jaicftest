@@ -19,6 +19,8 @@ val mainScenario = Scenario {
 
             val text = message?.text
 
+            log("Пользователь $username")
+
             reactions.run {
                 reactions.say("Вы сказали1: $text")
             }
