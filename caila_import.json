@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 3454178,
+    "id" : 3504948,
     "path" : "/Bye",
     "enabled" : true,
     "shared" : false,
@@ -26,7 +26,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454179,
+    "id" : 3504949,
     "path" : "/Hello",
     "enabled" : true,
     "shared" : false,
@@ -42,7 +42,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454180,
+    "id" : 3504950,
     "path" : "/Smalltalk",
     "enabled" : true,
     "shared" : false,
@@ -50,7 +50,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454181,
+    "id" : 3504951,
     "path" : "/Smalltalk/Help",
     "description" : "",
     "answer" : "I'm a templated bot and can't do useful things yet...",
@@ -70,7 +70,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454182,
+    "id" : 3504952,
     "path" : "/Smalltalk/HowAreYou",
     "answer" : "I'm fine! Thank you!",
     "enabled" : true,
@@ -81,7 +81,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454183,
+    "id" : 3504953,
     "path" : "/Smalltalk/WhatIsYourName",
     "answer" : "I don't have a name yet, I'm just a bot",
     "enabled" : true,
@@ -96,7 +96,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 3454184,
+    "id" : 3504954,
     "path" : "/Test",
     "enabled" : true,
     "shared" : false,
