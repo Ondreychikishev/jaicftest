@@ -22,7 +22,7 @@ val mainScenario = Scenario {
             log("Пользователь $username")
 
             reactions.run {
-                reactions.say("Вы сказали: $text")
+                reactions.say("Вы сказали1: $text")
             }
         }
     }
